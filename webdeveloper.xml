@@ -3,31 +3,31 @@
 	<coach>
 		<name>Raj</name>
 		<age>35</age>
-		<designation>Cross Fit</designation>
+		<speciality>Cross Fit</speciality>
 		<salary>15,000</salary>
 	</coach>
 	<coach>
 		<name>Gowri</name>
 		<age>28</age>
-		<designation>Yoga</designation>
+		<speciality>Yoga</speciality>
 		<salary>15,000</salary>
 	</coach>
 	<coach>
 		<name>Ahmed</name>
 		<age>35</age>
-		<designation>CSCS</designation>
+		<speciality>CSCS</speciality>
 		<salary>12,000</salary>
 	</coach>
 	<coach>
 		<name>Shareeq</name>
 		<age>31</age>
-		<designation>CSCS</designation>
+		<speciality>CSCS</speciality>
 		<salary>15,000</salary>
 	</coach>
 	<coach>
 		<name>Jeena</name>
 		<age>26</age>
-		<designation>Pilates</designation>
+		<speciality>Pilates</speciality>
 		<salary>15,000</salary>
 	</coach>
 </employee>
