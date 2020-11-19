@@ -37,7 +37,7 @@
         {
             var i;
             var xmlDoc=xml.responseXML;
-            var t="<tr><th>NAME</th><th>AGE</th><th>DESIGNATION</th></tr>";
+            var t="<tr><th>NAME</th><th>DESIGNATION</th></tr>";
             var x=xmlDoc.getElementsByTagName("developer");
             for(i=0;i<x.length;i++)
             {
@@ -45,8 +45,6 @@
                 x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
                 "</td><td>" +
                 t +="<tr><td>" +
-                x[i].getElementsByTagName("age")[0].childNodes[0].nodeValue +
-                "</td><td>" +
                 x[i].getElementsByTagName("designation")[0].childNodes[0].nodeValue +
                 "</td></tr>";
             }
