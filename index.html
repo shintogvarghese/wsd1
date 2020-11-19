@@ -15,8 +15,8 @@
     <title>DOM</title>
 </head>
 <body>
-    <h1>Developers Of The Webpages</h1>
-    <button type="button" onclick="loadXML()">WEBPAGE DEVELOPERS</button>
+    <h1>Our Trainers</h1>
+    <button type="button" onclick="loadXML()">Coach Information</button>
     <br><br>
     <table id="demo"></table>
     <script>
@@ -37,14 +37,14 @@
         {
             var i;
             var xmlDoc=xml.responseXML;
-            var t="<tr><th>NAME</th><th>DESIGNATION</th></tr>";
+            var t="<tr><th>NAME</th><th>SPECIALITY</th></tr>";
             var x=xmlDoc.getElementsByTagName("developer");
             for(i=0;i<x.length;i++)
             {
                 t +="<tr><td>" +
                 x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
                 "</td><td>" +
-                x[i].getElementsByTagName("designation")[0].childNodes[0].nodeValue +
+                x[i].getElementsByTagName("speciality")[0].childNodes[0].nodeValue +
                 "</td></tr>";
             }
             document.getElementById("demo").innerHTML=t;
