@@ -1,45 +1,33 @@
 <?xml version="1.0" encoding="ISO8859-1" ?>
-<webpagedevelop>
-	<developer>
-		<name>Ramesh</name>
+<employee>
+	<coach>
+		<name>Raj</name>
+		<age>35</age>
+		<designation>Cross Fit</designation>
+		<salary>15,000</salary>
+	</coach>
+	<coach>
+		<name>Gowri</name>
 		<age>28</age>
-		<designation>C.E.O</designation>
-		<salary>1,50,000</salary>
-	</developer>
-	<developer>
-		<name>Ghansham</name>
-		<age>32</age>
-		<designation>Assis. Manager</designation>
-		<salary>1,20,000</salary>
-	</developer>
-	<developer>
-		<name>Kartik</name>
+		<designation>Yoga</designation>
+		<salary>15,000</salary>
+	</coach>
+	<coach>
+		<name>Ahmed</name>
 		<age>35</age>
-		<designation>Developer</designation>
-		<salary>80,000</salary>
-	</developer>
-	<developer>
-		<name>Shardul</name>
-		<age>35</age>
-		<designation>Front End Developer</designation>
-		<salary>75,000</salary>
-	</developer>
-	<developer>
-		<name>Jaan</name>
+		<designation>CSCS</designation>
+		<salary>12,000</salary>
+	</coach>
+	<coach>
+		<name>Shareeq</name>
+		<age>31</age>
+		<designation>CSCS</designation>
+		<salary>15,000</salary>
+	</coach>
+	<coach>
+		<name>Jeena</name>
 		<age>26</age>
-		<designation>Back End Developer</designation>
-		<salary>85,000</salary>
-	</developer>
-	<developer>
-		<name>Ritik</name>
-		<age>35</age>
-		<designation>Data accumulator</designation>
-		<salary>60,000</salary>
-	</developer>
-	<developer>
-		<name>Abhishek</name>
-		<age>25</age>
-		<designation>Overall Inspector</designation>
-		<salary>50,000</salary>
-	</developer>
-</webpagedevelop>
+		<designation>Pilates</designation>
+		<salary>15,000</salary>
+	</coach>
+</employee>
